@@ -1,0 +1,195 @@
+.distanced{
+    display: flex;
+    justify-content: space-around;
+}
+
+.idle{
+    cursor:url('../assets/cursor/idle.png'), pointer
+}
+
+.spell{
+    width: 12em;
+    height: 3em;
+    position: absolute;
+}
+
+.spell:hover{
+    cursor:url('../assets/cursor/active.png'), pointer
+}
+
+/* high magic */
+
+#VOXAM{
+    top: 2.4em;
+    left: 30em;
+}
+
+#MAXOV{
+    top: 6em;
+    left: 30em;
+}
+
+#GOLGATEM{
+    width: 15em;
+    top: 9.6em;
+    left: 30em;
+}
+
+#METAGLOG{
+    width: 15.5em;
+    top: 13em;
+    left: 30em;
+}
+
+#OBIDIL{
+    width: 11em;
+    top: 16.6em;
+    left: 30em;
+}
+
+#LIDIBO{
+    width: 12em;
+    top: 20.1em;
+    left: 30em;
+}
+
+#BEBURTT{
+    width: 13em;
+    top: 23.6em;
+    left: 30em;
+}
+
+#TTRUBEB{
+    width: 13em;
+    top: 27.1em;
+    left: 30em;
+}
+
+
+
+
+/* middle magic */
+
+#REZROV{
+    width: 10.5em;
+    top: 3.5em;
+    left: 61.5em;
+}
+
+#VORZER{
+    width: 10.5em;
+    top: 6.7em;
+    left: 61.5em;
+}
+
+#KENDALL{
+    width: 12em;
+    top: 10em;
+    left: 61.5em;
+}
+
+#LLADNEK{
+    width: 12em;
+    top: 13em;
+    left: 61.5em;
+}
+
+#NARWILE{
+    width: 12em;
+    top: 16.4em;
+    left: 61.5em;
+}
+
+#ELIWRAN{
+    width: 12em;
+    top: 19.1em;
+    left: 61.5em;
+}
+
+#YASTARD{
+    width: 12em;
+    top: 22.1em;
+    left: 61.5em;
+}
+
+#DRATSAY{
+    width: 12em;
+    top: 25.1em;
+    left: 61.5em;
+}
+
+/* deep magic */
+
+#IGRAM{
+    width: 10.5em;
+    top: 3.8em;
+    left: 90em;
+}
+
+#MARGI{
+    width: 10.5em;
+    top: 7em;
+    left: 90em;
+}
+
+#THROCK{
+    width: 10.5em;
+    top: 10.3em;
+    left: 90em;
+}
+
+#KCORHT{
+    width: 10.5em;
+    top: 13.4em;
+    left: 90em;
+}
+
+#SNAVIG{
+    width: 10.5em;
+    top: 16.4em;
+    left: 90em;
+}
+
+#GIVANS{
+    width: 10.5em;
+    top: 19.3em;
+    left: 90em;
+}
+
+#GLORF{
+    width: 10.5em;
+    top: 22.3em;
+    left: 90em;
+}
+
+#FROLG{
+    width: 10.5em;
+    top: 25.3em;
+    left: 90em;
+}
+
+/* scrolls */
+
+#BOOZNIK{
+    width: 7em;
+    height: 22em;
+    top: 34em;
+    left: 16.5em;
+    transform: rotate(137deg);
+}
+
+#LEXDOM{
+    width: 10em;
+    height: 25em;
+    top: 30em;
+    left: 54em;
+    transform: rotate(127deg);
+}
+
+#ZIMDOR{
+    width: 6em;
+    height: 21em;
+    top: 32em;
+    left: 95em;
+    transform: rotate(131deg);
+}
