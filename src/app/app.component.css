@@ -4,10 +4,13 @@
 }
 
 .idle{
-    cursor:url('../assets/cursor/idle.png'), pointer
+    cursor:url('../assets/cursor/idle.png'), pointer;
+    background:url('../assets/background.png');
+    overflow: hidden;
 }
 
 .spell{
+    background-color: rgba(150,125,0,0);
     width: 12em;
     height: 3em;
     position: absolute;
