@@ -6,7 +6,12 @@
 .idle{
     cursor:url('../assets/cursor/idle.png'), pointer;
     background:url('../assets/background.png');
-    overflow: hidden;
+
+    min-width: 1920px;
+    max-width: 1920px;
+
+    min-height: 929px;
+    max-height: 929px;
 }
 
 .spell{
@@ -22,50 +27,48 @@
 
 /* high magic */
 
+.high{
+    left:30.5em;
+}
+
 #VOXAM{
-    top: 2.4em;
-    left: 30em;
+    width:11.2em;
+    top: 2.2em;
 }
 
 #MAXOV{
-    top: 6em;
-    left: 30em;
+    width:11.8em;
+    top: 5.9em;
 }
 
 #GOLGATEM{
-    width: 15em;
+    width: 15.5em;
     top: 9.6em;
-    left: 30em;
 }
 
 #METAGLOG{
-    width: 15.5em;
-    top: 13em;
-    left: 30em;
+    width: 16em;
+    top: 13.2em;
 }
 
 #OBIDIL{
-    width: 11em;
-    top: 16.6em;
-    left: 30em;
+    width: 11.5em;
+    top: 16.9em;
 }
 
 #LIDIBO{
     width: 12em;
-    top: 20.1em;
-    left: 30em;
+    top: 20.3em;
 }
 
 #BEBURTT{
-    width: 13em;
-    top: 23.6em;
-    left: 30em;
+    width: 13.5em;
+    top: 23.9em;
 }
 
 #TTRUBEB{
-    width: 13em;
-    top: 27.1em;
-    left: 30em;
+    width: 13.5em;
+    top: 27.5em;
 }
 
 
@@ -73,102 +76,96 @@
 
 /* middle magic */
 
+.middle{
+    left: 62.8em;
+    height: 2.5em;
+}
+
 #REZROV{
     width: 10.5em;
-    top: 3.5em;
-    left: 61.5em;
+    top: 4em;
 }
 
 #VORZER{
     width: 10.5em;
-    top: 6.7em;
-    left: 61.5em;
+    top: 7.2em;
 }
 
 #KENDALL{
     width: 12em;
-    top: 10em;
-    left: 61.5em;
+    top: 10.6em;
 }
 
 #LLADNEK{
-    width: 12em;
-    top: 13em;
-    left: 61.5em;
+    width: 11.8em;
+    top: 13.6em;
 }
 
 #NARWILE{
-    width: 12em;
-    top: 16.4em;
-    left: 61.5em;
+    width: 11.5em;
+    top: 17.1em;
 }
 
 #ELIWRAN{
-    width: 12em;
-    top: 19.1em;
-    left: 61.5em;
+    width: 11.3em;
+    top: 20em;
 }
 
 #YASTARD{
     width: 12em;
-    top: 22.1em;
-    left: 61.5em;
+    top: 23em;
 }
 
 #DRATSAY{
     width: 12em;
-    top: 25.1em;
-    left: 61.5em;
+    top: 25.8em;
 }
 
 /* deep magic */
 
+.deep{
+    left: 91.6em;
+    height: 2.5em;
+}
+
 #IGRAM{
-    width: 10.5em;
-    top: 3.8em;
-    left: 90em;
+    width: 10em;
+    top: 4.5em;
 }
 
 #MARGI{
-    width: 10.5em;
-    top: 7em;
-    left: 90em;
+    width: 9.8em;
+    top: 7.8em;
 }
 
 #THROCK{
-    width: 10.5em;
-    top: 10.3em;
-    left: 90em;
+    width: 10.9em;
+    top: 11.2em;
 }
 
 #KCORHT{
-    width: 10.5em;
-    top: 13.4em;
-    left: 90em;
+    width: 11em;
+    top: 14.3em;
 }
 
 #SNAVIG{
     width: 10.5em;
-    top: 16.4em;
-    left: 90em;
+    top: 17.3em;
 }
 
 #GIVANS{
     width: 10.5em;
-    top: 19.3em;
-    left: 90em;
+    top: 20.3em;
 }
 
 #GLORF{
-    width: 10.5em;
-    top: 22.3em;
-    left: 90em;
+    width: 10em;
+    top: 23.2em;
 }
 
 #FROLG{
-    width: 10.5em;
-    top: 25.3em;
-    left: 90em;
+    width: 10em;
+    top: 26em;
 }
 
 /* scrolls */
@@ -176,23 +173,23 @@
 #BOOZNIK{
     width: 7em;
     height: 22em;
-    top: 34em;
-    left: 16.5em;
+    top: 35em;
+    left: 17.1em;
     transform: rotate(137deg);
 }
 
 #LEXDOM{
     width: 10em;
     height: 25em;
-    top: 30em;
-    left: 54em;
+    top: 31em;
+    left: 55.5em;
     transform: rotate(127deg);
 }
 
 #ZIMDOR{
     width: 6em;
     height: 21em;
-    top: 32em;
-    left: 95em;
+    top: 33em;
+    left: 97em;
     transform: rotate(131deg);
 }
