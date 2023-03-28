@@ -5,7 +5,6 @@
 
 .idle{
     cursor:url('../assets/cursor/idle.png'), pointer;
-    background:url('../assets/background.png');
 
     min-width: 1920px;
     max-width: 1920px;
