@@ -6,8 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'zgiSpells';
-
   play(id:string){
     var audio = new Audio('./assets/spells/audio/' + id + '.mp3');
     audio.loop = false;
