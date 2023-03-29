@@ -14,7 +14,11 @@ export class AppComponent {
   lastSpell:string = "";
 
   play(id:string){
-    if(this.lastSpell == 'VOXAM' && id == 'BOOZNIK')
+    if(
+      (this.lastSpell == 'VOXAM' && id == 'BOOZNIK') || 
+      (this.lastSpell == 'REZROV' && id == 'LEXDOM')|| 
+      (this.lastSpell == 'IGRAM' && id == 'ZIMDOR')
+    )
     {
       this.flunk = !this.flunk
     }
