@@ -19,7 +19,7 @@ export class AppComponent {
       this.flunk = !this.flunk
     }
     this.lastSpell = id
-    if(!['BOOZNIK','LEXDOM','ZIMDOR'].includes(id))
+    if(!['BOOZNIK', 'LEXDOM', 'ZIMDOR'].includes(id))
     {
       this.pointerName = this.pointerClassStart + id + this.pointerClassEnd
     }
@@ -36,6 +36,7 @@ export class AppComponent {
         audio = new Audio('./assets/spells/audio/flunk.mp3');
         audio.loop = false;
         audio.play();
+        this.flunk = !this.flunk
       }
     }, 2600)
   }
