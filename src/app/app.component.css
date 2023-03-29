@@ -4,8 +4,6 @@
 }
 
 .idle{
-    cursor:url('../assets/cursor/idle.png'), pointer;
-
     min-width: 1920px;
     max-width: 1920px;
 
@@ -20,9 +18,6 @@
     position: absolute;
 }
 
-.spell:hover{
-    cursor:url('../assets/cursor/active.png'), pointer
-}
 
 /* high magic */
 

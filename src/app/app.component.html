@@ -1,50 +1,50 @@
-<div class="idle">
+<div class="idle" [ngStyle]="getPointer('idle')">
 
   <div style="display: flex">
     <div style="width: 100%">
       <img src="./assets/spells/image/1.png" style="width:inherit">
       
-      <div class="spell high" id="VOXAM" (click)="play('VOXAM')"></div>
-      <div class="spell high" id="MAXOV" (click)="play('MAXOV')"></div>
-      <div class="spell high" id="GOLGATEM" (click)="play('GOLGATEM')"></div>
-      <div class="spell high" id="METAGLOG" (click)="play('METAGLOG')"></div>
-      <div class="spell high" id="OBIDIL" (click)="play('OBIDIL')"></div>
-      <div class="spell high" id="LIDIBO" (click)="play('LIDIBO')"></div>
-      <div class="spell high" id="BEBURTT" (click)="play('BEBURTT')"></div>
-      <div class="spell high" id="TTRUBEB" (click)="play('TTRUBEB')"></div>
+      <div class="spell high" id="VOXAM" (click)="play('VOXAM')" [ngStyle]="getPointer()"></div>
+      <div class="spell high" id="MAXOV" (click)="play('MAXOV')" [ngStyle]="getPointer()"></div>
+      <div class="spell high" id="GOLGATEM" (click)="play('GOLGATEM')" [ngStyle]="getPointer()"></div>
+      <div class="spell high" id="METAGLOG" (click)="play('METAGLOG')" [ngStyle]="getPointer()"></div>
+      <div class="spell high" id="OBIDIL" (click)="play('OBIDIL')" [ngStyle]="getPointer()"></div>
+      <div class="spell high" id="LIDIBO" (click)="play('LIDIBO')" [ngStyle]="getPointer()"></div>
+      <div class="spell high" id="BEBURTT" (click)="play('BEBURTT')" [ngStyle]="getPointer()"></div>
+      <div class="spell high" id="TTRUBEB" (click)="play('TTRUBEB')" [ngStyle]="getPointer()"></div>
     </div>
   
     <div style="width: 100%">
       <img src="./assets/spells/image/2.png" style="width:inherit">
 
-      <div class="spell middle" id="REZROV" (click)="play('REZROV')"></div>
-      <div class="spell middle" id="VORZER" (click)="play('VORZER')"></div>
-      <div class="spell middle" id="KENDALL" (click)="play('KENDALL')"></div>
-      <div class="spell middle" id="LLADNEK" (click)="play('LLADNEK')"></div>
-      <div class="spell middle" id="NARWILE" (click)="play('NARWILE')"></div>
-      <div class="spell middle" id="ELIWRAN" (click)="play('ELIWRAN')"></div>
-      <div class="spell middle" id="YASTARD" (click)="play('YASTARD')"></div>
-      <div class="spell middle" id="DRATSAY" (click)="play('DRATSAY')"></div>
+      <div class="spell middle" id="REZROV" (click)="play('REZROV')" [ngStyle]="getPointer()"></div>
+      <div class="spell middle" id="VORZER" (click)="play('VORZER')" [ngStyle]="getPointer()"></div>
+      <div class="spell middle" id="KENDALL" (click)="play('KENDALL')" [ngStyle]="getPointer()"></div>
+      <div class="spell middle" id="LLADNEK" (click)="play('LLADNEK')" [ngStyle]="getPointer()"></div>
+      <div class="spell middle" id="NARWILE" (click)="play('NARWILE')" [ngStyle]="getPointer()"></div>
+      <div class="spell middle" id="ELIWRAN" (click)="play('ELIWRAN')" [ngStyle]="getPointer()"></div>
+      <div class="spell middle" id="YASTARD" (click)="play('YASTARD')" [ngStyle]="getPointer()"></div>
+      <div class="spell middle" id="DRATSAY" (click)="play('DRATSAY')" [ngStyle]="getPointer()"></div>
 
-      <div class="spell deep" id="IGRAM" (click)="play('IGRAM')"></div>
-      <div class="spell deep" id="MARGI" (click)="play('MARGI')"></div>
-      <div class="spell deep" id="THROCK" (click)="play('THROCK')"></div>
-      <div class="spell deep" id="KCORHT" (click)="play('KCORHT')"></div>
-      <div class="spell deep" id="SNAVIG" (click)="play('SNAVIG')"></div>
-      <div class="spell deep" id="GIVANS" (click)="play('GIVANS')"></div>
-      <div class="spell deep" id="GLORF" (click)="play('GLORF')"></div>
-      <div class="spell deep" id="FROLG" (click)="play('FROLG')"></div>
+      <div class="spell deep" id="IGRAM" (click)="play('IGRAM')" [ngStyle]="getPointer()"></div>
+      <div class="spell deep" id="MARGI" (click)="play('MARGI')" [ngStyle]="getPointer()"></div>
+      <div class="spell deep" id="THROCK" (click)="play('THROCK')" [ngStyle]="getPointer()"></div>
+      <div class="spell deep" id="KCORHT" (click)="play('KCORHT')" [ngStyle]="getPointer()"></div>
+      <div class="spell deep" id="SNAVIG" (click)="play('SNAVIG')" [ngStyle]="getPointer()"></div>
+      <div class="spell deep" id="GIVANS" (click)="play('GIVANS')" [ngStyle]="getPointer()"></div>
+      <div class="spell deep" id="GLORF" (click)="play('GLORF')" [ngStyle]="getPointer()"></div>
+      <div class="spell deep" id="FROLG" (click)="play('FROLG')" [ngStyle]="getPointer()"></div>
     </div>
   </div>
 
 
   <div class="distanced">
     <img src="./assets/spells/image/BOOZNIK.png" style="width:20%; height:20%">
-    <div class="spell" id="BOOZNIK" (click)="play('BOOZNIK')" matTooltip="reverse spells in spellbook"  matTooltipPosition="right"></div>
+    <div class="spell" id="BOOZNIK" (click)="play('BOOZNIK')" matTooltip="reverse spells in spellbook" matTooltipPosition="right" [ngStyle]="getPointer('scroll')"></div>
     <img src="./assets/spells/image/LEXDOM.png" style="width:20%; height:20%">
-    <div class="spell" id="LEXDOM" (click)="play('LEXDOM')" matTooltip="create lock and key"   matTooltipPosition="below"></div>
+    <div class="spell" id="LEXDOM" (click)="play('LEXDOM')" matTooltip="create lock and key" matTooltipPosition="below" [ngStyle]="getPointer('scroll')"></div>
     <img src="./assets/spells/image/ZIMDOR.png" style="width:20%; height:20%">
-    <div class="spell" id="ZIMDOR" (click)="play('ZIMDOR')" matTooltip="triplicate quantity of intoxicating beverages"   matTooltipPosition="left"></div>
+    <div class="spell" id="ZIMDOR" (click)="play('ZIMDOR')" matTooltip="triplicate quantity of intoxicating beverages" matTooltipPosition="left" [ngStyle]="getPointer('scroll')"></div>
   </div>
   
   
